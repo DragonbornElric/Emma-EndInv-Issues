@@ -1,5 +1,5 @@
 name: Bug report
-description: Something in Emma's Endless Inventory doesn't work as it should
+description: Something in Dimensional Workshop 2 doesn't work as it should
 labels: ["bug"]
 body:
   - type: markdown
@@ -13,24 +13,24 @@ body:
       label: What happened?
       description: What you did, what you expected, and what happened instead. Screenshots or a short video help a lot.
       placeholder: |
-        1. Opened a chest next to the Endless Inventory panel
+        1. Opened a chest next to the Dimensional Workshop 2 panel
         2. Clicked Loot All
-        3. Expected the items in EndInv, but ...
+        3. Expected the items in Workshop storage, but ...
     validations:
       required: true
   - type: input
     id: mod-version
     attributes:
       label: Mod version
-      description: From the jar name, e.g. `emma_endinv-fabric-26.2-1.4.4.jar`
-      placeholder: "1.4.4"
+      description: From the jar name, e.g. `emma_dw-fabric-26.3-2.0.0.jar`
+      placeholder: "2.0.0"
     validations:
       required: true
   - type: dropdown
     id: mc-version
     attributes:
       label: Minecraft version
-      options: ["26.2", "26.3", "26.1.2", "Other (say which below)"]
+      options: ["26.3", "26.2", "26.1.2", "Other (say which below)"]
     validations:
       required: true
   - type: dropdown
